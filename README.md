@@ -2,13 +2,11 @@
 
 Test assertions for ActiveModel and ActiveRecord.
 
-```ruby
-assert_valid @some_model
-assert_valid @some_model, :some_attribute
+    assert_valid @some_model
+    assert_valid @some_model, :some_attribute
 
-refute_valid @some_model
-refute_valid @some_model, :some_attribute
-```
+    refute_valid @some_model
+    refute_valid @some_model, :some_attribute
 
 Read [the test](/test/test.rb) for a complete example. This gem will work with
 any minitest compatible test framework.
