@@ -1,6 +1,6 @@
 # MiniTest::ActiveModel
 
-TODO: Write a gem description
+Test assertions for ActiveModel and ActiveRecord.
 
 ## Installation
 
@@ -18,7 +18,8 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+This gem will work with any minitest compatible test framework. Read
+[the test](/test/test.rb) to see an example of how it works.
 
 ## Contributing
 
