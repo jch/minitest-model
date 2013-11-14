@@ -10,7 +10,7 @@ class Person < OpenStruct
 end
 
 class PersonTest < MiniTest::Unit::TestCase
-  include MiniTest::ActiveModel
+  include MiniTest::Model
 
   def setup
     @person = Person.new

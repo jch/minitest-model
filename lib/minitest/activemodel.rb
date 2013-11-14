@@ -1,7 +1,7 @@
 require "minitest/activemodel/version"
 
 module MiniTest
-  module ActiveModel
+  module Model
     ########### ActiveModel::Validations
 
     # Public: assert `record` is valid. If optional argument `attribute` is

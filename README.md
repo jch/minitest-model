@@ -1,4 +1,4 @@
-# MiniTest::ActiveModel
+# MiniTest::Model
 
 Test assertions for ActiveModel and ActiveRecord.
 
