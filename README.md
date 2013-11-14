@@ -2,6 +2,17 @@
 
 Test assertions for ActiveModel and ActiveRecord.
 
+```ruby
+assert_valid @some_model
+assert_valid @some_model, :some_attribute
+
+refute_valid @some_model
+refute_valid @some_model, :some_attribute
+```
+
+Read [the test](/test/test.rb) for a complete example. This gem will work with
+any minitest compatible test framework.
+
 ## Installation
 
 Add this line to your application's Gemfile:
@@ -15,11 +26,6 @@ And then execute:
 Or install it yourself as:
 
     $ gem install minitest-activemodel
-
-## Usage
-
-This gem will work with any minitest compatible test framework. Read
-[the test](/test/test.rb) to see an example of how it works.
 
 ## Contributing
 
