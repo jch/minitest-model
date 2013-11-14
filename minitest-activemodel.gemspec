@@ -8,16 +8,17 @@ Gem::Specification.new do |spec|
   spec.version       = Minitest::Activemodel::VERSION
   spec.authors       = ["Jerry Cheung"]
   spec.email         = ["jch@whatcodecraves.com"]
-  spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
-  spec.homepage      = ""
+  spec.description   = %q{Minitest assertions for ActiveModel}
+  spec.summary       = %q{assert_valid, refute_valid. Works with ActiveRecord}
+  spec.homepage      = "https://github.com/jch/minitest-activemodel"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
   spec.executables   = spec.files.grep(%r{^bin/}) { |f| File.basename(f) }
-  spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
+  spec.test_files    = spec.files.grep(%r{^(test)/})
   spec.require_paths = ["lib"]
 
   spec.add_development_dependency "bundler", "~> 1.3"
   spec.add_development_dependency "rake"
+  spec.add_development_dependency "activemodel"
 end
