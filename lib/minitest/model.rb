@@ -1,4 +1,4 @@
-require "minitest/activemodel/version"
+require "minitest/model/version"
 
 module MiniTest
   module Model

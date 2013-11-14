@@ -1,16 +1,16 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'minitest/activemodel/version'
+require 'minitest/model/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "minitest-activemodel"
+  spec.name          = "minitest-model"
   spec.version       = MiniTest::Model::VERSION
   spec.authors       = ["Jerry Cheung"]
   spec.email         = ["jch@whatcodecraves.com"]
   spec.description   = %q{MiniTest assertions for ActiveModel}
   spec.summary       = %q{assert_valid, refute_valid. Works with ActiveRecord}
-  spec.homepage      = "https://github.com/jch/minitest-activemodel"
+  spec.homepage      = "https://github.com/jch/minitest-model"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)

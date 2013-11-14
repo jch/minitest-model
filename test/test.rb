@@ -1,4 +1,4 @@
-require 'minitest/activemodel'
+require 'minitest/model'
 require 'minitest/autorun'
 
 require 'ostruct'

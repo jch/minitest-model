@@ -17,7 +17,7 @@ any minitest compatible test framework.
 
 Add this line to your application's Gemfile:
 
-    gem 'minitest-activemodel'
+    gem 'minitest-model'
 
 And then execute:
 
@@ -25,7 +25,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install minitest-activemodel
+    $ gem install minitest-model
 
 ## Contributing
 
