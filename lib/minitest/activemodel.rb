@@ -1,7 +1,7 @@
 require "minitest/activemodel/version"
 
-module Minitest
-  module Activemodel
     # Your code goes here...
+module MiniTest
+  module ActiveModel
   end
 end

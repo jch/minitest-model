@@ -5,10 +5,10 @@ require 'minitest/activemodel/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "minitest-activemodel"
-  spec.version       = Minitest::Activemodel::VERSION
+  spec.version       = MiniTest::ActiveModel::VERSION
   spec.authors       = ["Jerry Cheung"]
   spec.email         = ["jch@whatcodecraves.com"]
-  spec.description   = %q{Minitest assertions for ActiveModel}
+  spec.description   = %q{MiniTest assertions for ActiveModel}
   spec.summary       = %q{assert_valid, refute_valid. Works with ActiveRecord}
   spec.homepage      = "https://github.com/jch/minitest-activemodel"
   spec.license       = "MIT"

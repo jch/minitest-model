@@ -1,4 +1,4 @@
-# Minitest::Activemodel
+# MiniTest::ActiveModel
 
 TODO: Write a gem description
 
