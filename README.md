@@ -25,6 +25,12 @@ Or install it yourself as:
 
     $ gem install minitest-model
 
+In your test base class, add:
+
+    class MyTest < Minitest::Test
+      include Minitest::Model
+    end
+
 ## Contributing
 
 1. Fork it
